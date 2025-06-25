@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>自动拨号</title>
+  <script>
+    function autoDial() {
+      // 自动跳转拨号链接
+      window.location.href = "tel:13030303030";
+    }
+  </script>
+</head>
+<body onload="autoDial()">
+  <p>正在为您跳转拨号界面...</p>
+</body>
+</html>
